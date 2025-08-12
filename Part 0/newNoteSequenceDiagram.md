@@ -34,8 +34,3 @@ sequenceDiagram
   activate Server
   Server-->>Browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
   deactivate Server
-
-
-
-
-    Note right of browser: The browser executes the callback function that renders the notes
