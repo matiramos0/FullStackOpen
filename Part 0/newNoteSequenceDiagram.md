@@ -13,8 +13,8 @@ sequenceDiagram
   Note over Server: The server responds with a URL redirect request and the browser makes an HTTP GET request to the new address
 
   Browser->>Server: GET https://studies.cs.helsinki.fi/exampleapp/note
-  note over Browser: The browser reloads the page, repeating the first sequence
-
+  Note over Browser: The browser reloads the page, repeating the first sequence
+  
   Browser->>Server: GET https://studies.cs.helsinki.fi/exampleapp/notes
   activate Server
   Server-->>Browser: HTML document
